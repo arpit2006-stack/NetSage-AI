@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from pathlib import Path
-from src.engine import diagnose_case
+from engine import diagnose_case
 
 # Set page to wide mode with a professional title
 st.set_page_config(page_title="NetSage Diagnostic Console", layout="wide")
