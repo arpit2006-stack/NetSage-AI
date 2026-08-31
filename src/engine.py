@@ -1,4 +1,4 @@
-from src.checker import run_rule_checks
+from checker import run_rule_checks
 
 def diagnose_case(case: dict) -> dict:
     rule_results = run_rule_checks(case.get("show_outputs", ""))
